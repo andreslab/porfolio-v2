@@ -1,0 +1,29 @@
+<div class="bg_contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <fieldset>
+            <legend>Simple form</legend>
+            <div class="row">
+                <input class="col-sm-12" id="name" placeholder="YOUR NAME"/>
+            </div>
+            <div class="row">
+                <input class="col-sm-12" id="mail" placeholder="YOUR MAIL"/>
+            </div>
+            <div class="row">
+                <input class="col-sm-12" id="resume" placeholder="WHAT ARE YOU INTERESTED IN?"/>
+            </div>
+            <div class="row">
+                <input class="col-sm-12" id="message" placeholder="YOUR MESSAGE"/>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <input [(ngModel)]="contact.name" class="col-sm-12" placeholder="YOUR NAME"/>
+        <p>Hola {{contact.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>

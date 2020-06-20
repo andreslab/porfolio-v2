@@ -24,6 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/mini.css/dist/mini-default.css",
+              "node_modules/mini.css/dist/mini-dark.css",
+              "node_modules/mini.css/dist/mini-nord.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "porfolio-frontend"
+    }
+  },
+  "defaultProject": "porfolio-frontend",
+  "cli": {
+    "analytics": "597f672a-cee1-49bc-a1f4-c4b8e5c11f18"
+  }
 }
