@@ -1,4 +1,4 @@
-import { Project } from './project';
+import { Project, Status } from './project';
 import { Category } from './category';
 
 export const CATEGORIES: Array<Category> = [
@@ -9,11 +9,11 @@ export const CATEGORIES: Array<Category> = [
 ]
 
 export const PROJECTS: Array<Project> = [
-  {id:0, name:"PAAS", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed. Fusce pharetra lectus et sagittis venenatis. Sed sodales facilisis urna. Cras maximus, sem non ornare euismod, eros eros tempor tellus, eu semper elit lorem id velit. Vestibulum a lectus eros. In consequat ultrices laoreet. Cras finibus porta nisi et tristique. Praesent placerat sagittis neque in pulvinar.", category: CATEGORIES[0]},
-  {id:1, name:"SAMMY", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed. Fusce pharetra lectus et sagittis venenatis. Sed sodales facilisis urna. Cras maximus, sem non ornare euismod, eros eros tempor tellus, eu semper elit lorem id velit. Vestibulum a lectus eros. In consequat ultrices laoreet. Cras finibus porta nisi et tristique. Praesent placerat sagittis neque in pulvinar.", category: CATEGORIES[1]},
-  {id:2, name:"PORFOLIO", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed. Fusce pharetra lectus et sagittis venenatis. Sed sodales facilisis urna. Cras maximus, sem non ornare euismod, eros eros tempor tellus, eu semper elit lorem id velit. Vestibulum a lectus eros. In consequat ultrices laoreet. Cras finibus porta nisi et tristique. Praesent placerat sagittis neque in pulvinar.", category: CATEGORIES[2]},
-  {id:3, name:"SMARTCROP", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed. Fusce pharetra lectus et sagittis venenatis. Sed sodales facilisis urna. Cras maximus, sem non ornare euismod, eros eros tempor tellus, eu semper elit lorem id velit. Vestibulum a lectus eros. In consequat ultrices laoreet. Cras finibus porta nisi et tristique. Praesent placerat sagittis neque in pulvinar.", category: CATEGORIES[3]},
-  {id:4, name:"PRINT3D", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed. Fusce pharetra lectus et sagittis venenatis. Sed sodales facilisis urna. Cras maximus, sem non ornare euismod, eros eros tempor tellus, eu semper elit lorem id velit. Vestibulum a lectus eros. In consequat ultrices laoreet. Cras finibus porta nisi et tristique. Praesent placerat sagittis neque in pulvinar.", category: CATEGORIES[2]}
+  {id:0, name:"PORJECT 1", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed.", category: CATEGORIES[0], created: "12/12/20" , status: Status.BETA},
+  {id:1, name:"PORJECT 2", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed.", category: CATEGORIES[1], created: "12/12/20" , status: Status.ALPHA},
+  {id:2, name:"PORJECT 3", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed.", category: CATEGORIES[2], created: "12/12/20" , status: Status.RELEASE},
+  {id:3, name:"PORJECT 4", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed.", category: CATEGORIES[3], created: "12/12/20" , status: Status.BETA},
+  {id:4, name:"PORJECT 5", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor ipsum, ac ultrices magna semper sed.", category: CATEGORIES[2], created: "12/12/20" , status: Status.ALPHA}
 ]
 
 

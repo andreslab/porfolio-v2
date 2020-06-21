@@ -5,4 +5,12 @@ export interface Project{
   name: string;
   description: string;
   category: Category;
+  created: string;
+  status: Status;
+}
+
+export enum Status {
+  ALPHA= "ALPHA",
+  BETA= "BETA",
+  RELEASE= "RELEASE"
 }
