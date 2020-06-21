@@ -1,4 +1,22 @@
-.body_menu{
+.bg_menu{
   position: fixed;
   height: 100vh;
+  overflow: hidden;
+  background-color: white;
+}
+
+a {
+  font-size: large;
+  color: rgb(125, 125, 125);
+  width: 100%;
+}
+
+.menu-content-class {
+  width: 100%;
+  margin: 0px;
+}
+
+nav {
+  background-color: transparent;
+  height: 100%;
 }

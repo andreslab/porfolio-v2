@@ -1,10 +1,11 @@
 <div class="bg_contact">
-  <div class="container">
+  <h1>Contacto</h1>
+  <div [ngClass]="['container', 'contact-content-class']">
     <div class="row">
       <div class="col-md-6">
         <form>
           <fieldset>
-            <legend>Simple form</legend>
+            <legend>Send</legend>
             <div class="row">
                 <input class="col-sm-12" id="name" placeholder="YOUR NAME"/>
             </div>
@@ -21,8 +22,12 @@
         </form>
       </div>
       <div class="col-md-6">
-        <input [(ngModel)]="contact.name" class="col-sm-12" placeholder="YOUR NAME"/>
-        <p>Hola {{contact.name}}</p>
+        <!--<input [(ngModel)]="contact.name" class="col-sm-12" placeholder="YOUR NAME"/>
+        <p>Hola {{contact.name}}</p>-->
+        <ul>
+          <li>Cell: 0992814433</li>
+          <li>Email: andreslab.dev@gmail.com</li>
+        </ul>
       </div>
     </div>
   </div>

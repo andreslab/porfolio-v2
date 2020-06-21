@@ -1,4 +1,25 @@
 .bg_blog {
-  background-color: rgb(0, 255, 191);
-  width: 100%;
+  background-color: rgb(185, 240, 226);
+  padding: 25px;
+}
+
+.blog-content-class {
+  padding: 50px;
+}
+
+.blog-card-class {
+  height: 300px;
+}
+
+.blog-card-title-class {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.blog-card-detail-class {
+  width: 60%;
+  position: relative;
+  top: -50px;
+  right: -100px;
+  text-align: justify;
 }

@@ -1,8 +1,10 @@
-<div class="bg_blog">
-  <div class="row">
-    <div class="card large">
-      <span>Blog 1</span>
-      <div class="section dark">Descripción</div>
-    </div>
+<div [ngClass]="'bg_blog'">
+  <h1>Blog</h1>
+  <div [ngClass]="['row', 'blog-content-class']">
+      <div [ngClass]="['card', 'blog-card-class']" *ngFor= "let blog of blogs" (click)="onSelectBlog(blog)">
+          <H4 [ngClass]="'blog-card-title-class'">{{ blog.name }}</H4>
+          <div [ngClass]="'blog-card-detail-class'">{{ blog.description }}</div>
+      </div>
   </div>
 </div>
+

@@ -1,12 +1,19 @@
-<nav class="body_menu">
-  <span>ANDRESLAB</span>
-  <a href="#">Home</a>
-  <a href="#">Porfolio</a>
-  <a href="#">Blog</a>
-  <a href="#">Contact</a>
-  <div class="row">
-    <span class="icon-mail"></span>
-    <span class="icon-mail"></span>
-    <span class="icon-mail"></span>
+<div class="bg_menu">
+  <nav>
+  <div class="menu-content-class">
+    <h1 class="menu-title-class">ANDRESLAB</h1>
+    <a href="#">Home</a>
+    <a href="#">Porfolio</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+    <div [ngClass]="'content'">
+    <div [ngClass]="'row'">
+      <span [ngClass]="['col-sm-3', 'icon-mail']"></span>
+      <span [ngClass]="['col-sm-3', 'icon-mail']"></span>
+      <span [ngClass]="['col-sm-3', 'icon-mail']"></span>
+      <span [ngClass]="['col-sm-3', 'icon-mail']"></span>
+    </div>
+  </div>
   </div>
 </nav>
+</div>

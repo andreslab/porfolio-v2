@@ -1,5 +1,19 @@
 .bg_home {
-  background-color: rgb(0, 162, 255);
-  width: 100%;
+  background-color: rgb(0, 0, 0);
   height: 100vh;
+  padding: 25px;
+}
+
+.home-content-class {
+  padding: 50px;
+}
+
+.home-content-class h1 {
+  vertical-align: center;
+  color: white;
+}
+
+.home-content-class h2 {
+  vertical-align: center;
+  color: rgb(120, 120, 120)
 }
